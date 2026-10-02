@@ -1,0 +1,39 @@
+# Local database configuration
+config/db.php
+
+# Real SMTP / Gmail configuration
+mail_config.php
+
+# Original database containing real/personal data
+msp.sql
+
+# Installation / testing files
+test_mail.php
+install.php
+install.lock
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private files
+private/
+uploads/private/
+storage/private/
+
+# XAMPP
+xampp/
