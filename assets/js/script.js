@@ -1,4 +1,4 @@
-
+date_default_timezone_set('Asia/Kolkata');
 document.addEventListener('DOMContentLoaded', function () {
 
   const tabs = document.querySelectorAll('.floor-tab');
@@ -148,6 +148,7 @@ if (entryForm) {
     });
 
 }
+
 
   // ---------------- CHECKOUT ----------------
   function openCheckout(floorId, slotNo) {
