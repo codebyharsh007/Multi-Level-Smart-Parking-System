@@ -149,7 +149,7 @@ if (entryForm) {
 
 }
 
-
+date_default_timezone_set('Asia/Kolkata');
   // ---------------- CHECKOUT ----------------
   function openCheckout(floorId, slotNo) {
     document.getElementById('coSlotLabel').textContent = slotNo;
