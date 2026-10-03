@@ -1,6 +1,11 @@
 <?php
 require_once __DIR__ . '/../config/session.php';
 require_login();
+
+date_default_timezone_set('Asia/Kolkata');
+
+
+
 header('Content-Type: application/json');
 
 $floor_id = (int)($_GET['floor_id'] ?? 0);
