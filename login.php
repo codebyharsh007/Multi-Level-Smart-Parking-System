@@ -77,10 +77,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
       <p class="auth-foot">Floor Managers log vehicle entry / exit &middot; Admins configure floors, pricing &amp; staff</p>
-    </div>
 
-    
-    <div style="text-align:center; margin-top:20px;">
+
+      <div style="text-align:center; margin-top:20px;">
     <a href="index.php"
        style="display:inline-block;
               background:#F2A93B;
@@ -91,6 +90,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         Go Back
     </a>
     </div>
+    </div>
+
+    
+    
 
 
 
